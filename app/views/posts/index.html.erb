@@ -15,7 +15,7 @@
 
   <tbody>
     <% @posts.each do |post| %>
-      <tr >
+      <tr>
         <td><%= post.title %></td>
         <td><%= post.body %></td>
         <td><%= link_to 'Show', post , class:"btn btn-default btn-xs" %></td>
@@ -24,7 +24,7 @@
                   class:"btn btn-danger btn-xs",style:"color:white" %></td>
         <!-- link modal -->
         <td><%= link_to 'Abrir MODAL',"#",class: "post-detail btn btn-primary btn-xs", 'data-post'=> post.to_json, 
-            remote: true%></td>
+            remote: true, style:"color:white" %></td>
       </tr>
     <% end %>
   </tbody>

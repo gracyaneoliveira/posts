@@ -1,3 +1,13 @@
-# Place all the behaviors and hooks related to the matching controller here.
-# All this logic will automatically be available in application.js.
-# You can use CoffeeScript in this file: http://coffeescript.org/
+# $(function(){
+  
+#   $('.post-detail').on('click', function (event) {
+
+#      event.preventDefault();
+
+#      var contact = $(this).data('post');
+        
+#      $('#postModal #post-title').text(contact.title);
+#      $('#postModal #post-body').text(contact.body);
+#      $('#postModal').modal('show');
+#   });
+# });
